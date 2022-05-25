@@ -21,7 +21,7 @@ def create_json_v2():
     tel = fake_ru.phone_number()
     prof = fake_ru.job()
     address = fake_ru.job()
-    dict[i] = i:{'name', 'tel', 'prof', 'address'}
+    dict[i] = i:['name', 'tel', 'prof', 'address']
     with open("output.json", 'w', encoding="utf8") as f:
         json.dumps(name, tel, prof, address)
 
